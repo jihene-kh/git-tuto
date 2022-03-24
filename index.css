@@ -1,5 +1,6 @@
 #container1{
-   background-color: rgb(177,156,217);
+   background-color: white;
+   border: none;
 }
 
 #img1{
@@ -7,8 +8,18 @@
 }
 #a{
     margin: 30px;
-bac
+
 }
-.navbar-text{
-    text-decoration-color: white ;
+.navbar-default{
+    border: none !important;
+    background-color: transparent !important;
 }
+
+li::marker {
+    content:  "◎ ";
+    color: rgb(177,156,217);
+  }
+
+ #img2{
+     width:70%;
+ } 
